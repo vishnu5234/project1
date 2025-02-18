@@ -31,7 +31,7 @@ public class Project {
 
 	@Given("user enters username and password")
 	public void user_enters_username_and_password() {
-		WebUiBuiltInKeywords.setText(findTestObject("Object Repository/username"), "admin");
+		WebUiBuiltInKeywords.setText(findTestObject("Object Repository/username1"), "admin");
 		WebUiBuiltInKeywords.setText(findTestObject("Object Repository/password"), "admin123");
 	}
 
